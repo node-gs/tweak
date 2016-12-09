@@ -351,17 +351,54 @@
 }
 
 
-
-
+/* variable text-align */
 
 /* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
+.ta-l-xs {
+    text-align: left;
+}
+.ta-r-xs {
+    text-align: left;
+}
+.ta-c-xs {
+    text-align: left;
+}
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+@media (min-width: 768px) {
+    .ta-l-sm {
+        text-align: left;
+    }
+    .ta-r-sm {
+        text-align: right;
+    }
+    .ta-c-sm {
+        text-align: center;
+    }
+}
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
+@media (min-width: 992px) {
+    .ta-l-md {
+        text-align: left;
+    }
+    .ta-r-md {
+        text-align: right;
+    }
+    .ta-c-md {
+        text-align: center;
+    }
+}
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+@media (min-width: 1200px) {
+    .ta-l-lg {
+        text-align: left;
+    }
+    .ta-r-lg {
+        text-align: right;
+    }
+    .ta-c-lg {
+        text-align:center;
+    }
+}
