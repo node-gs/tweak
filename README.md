@@ -44,3 +44,12 @@ examples:
 m-t-xs = margin top extra small = margin-top: 5px;
 
 p-h-xl = padding horizontal extra large = padding: 0 40px;
+
+
+
+### text alignment
+
+ta: text align
+
+ta-s-l
+ta r-sm
