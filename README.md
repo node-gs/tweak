@@ -51,5 +51,11 @@ p-h-xl = padding horizontal extra large = padding: 0 40px;
 
 ta: text align
 
-ta-s-l
-ta r-sm
+* r: right;
+* l: left;
+* c: center;
+
+* xs: devices up to 768px
+* sm: devices up to 968px;
+* md: devices up to 1200px;
+* lg: devices larger than 1200px;
