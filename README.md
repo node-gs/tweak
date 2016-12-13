@@ -33,7 +33,7 @@
 
 ### Text Alignment
 
-ta: text align
+* ta: text align
 
 * r: right;
 * l: left;
