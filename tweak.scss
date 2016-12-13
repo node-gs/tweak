@@ -407,3 +407,19 @@
     text-align:center;
   }
 }
+
+
+/* support for inline-block menus */
+
+.horizontal-list {
+  display: inline-block;
+  &.va-t {
+    vertical-align: top;
+  }
+  &.ta-b {
+    vertical-align: bottom;
+  }
+  a {
+    display: block;
+  }
+}
