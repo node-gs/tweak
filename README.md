@@ -3,28 +3,16 @@
 * padding: p
 * margin: m
 
-* position of margin or padding:
+### Position of margin or padding:
+
 * sides: h (horizontal)
 * top and bottom: v (vertical)
-
 * top: t
 * right: r
 * bottom: b
 * left: l
 
-
-### Padding sizes:
-
-* n: 0px !important
-* xxs: 5px
-* xs: 10px
-* sm: 15px
-* m: 20px
-* md: 25px
-* lg: 30px
-* xl: 40px
-
-### Margin sizes:
+### Sizes:
 
 * n: 0px !important
 * xxs: 2.5px
@@ -35,19 +23,15 @@
 * lg: 30px
 * xl: 50px
 
-Negative sizes:
+### Examples:
 
-Currently n-xl = negative xl, but this is confusing, will need to update.
+`m-t-xs` = margin top extra small = `margin-top: 5px;`
 
-examples:
+`.p-h-xl` = padding horizontal extra large = `padding: 0 50px;`
 
-m-t-xs = margin top extra small = margin-top: 5px;
+------------
 
-p-h-xl = padding horizontal extra large = padding: 0 40px;
-
-
-
-### text alignment
+### Text Alignment
 
 ta: text align
 
@@ -59,3 +43,7 @@ ta: text align
 * sm: devices up to 968px;
 * md: devices up to 1200px;
 * lg: devices larger than 1200px;
+
+### Examples:
+
+`.ta-c-xs .ta-l-sm` = `text-align: center;` up to 768px and `text-align: left` on viewports > 768px 
